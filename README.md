@@ -1,20 +1,19 @@
-# bigbasket-sql-capstone
 # BigBasket SQL & Data Analytics Capstone Project
 
 ## Project Overview
-This repository contains the end-to-end data analytics and SQL capstone project analyzing BigBasket order data, category revenue performance, and data hygiene cleaning pipelines.
+An end-to-end data analytics capstone analyzing BigBasket order data, category revenue performance, spreadsheet pivot table reconciliation, and data cleaning pipelines using Python.
 
-## Project Structure
+## Project Files & Structure
 - **`bigbasket_capstone.db`**: SQLite database containing products, customers, orders, and category targets.
-- **`bigbasket_capstone.ipynb`**: Jupyter Notebook detailing data generation, SQL queries, and Pandas data cleaning.
-- **`orders_raw.csv` / `orders_cleaned.csv`**: Raw generated dataset with simulated real-world anomalies vs. the cleaned final version.
-- **`monthly_category_revenue.csv` & `bigbasket_revenue_analysis.xlsx`**: Monthly category-wise revenue aggregation and spreadsheet pivot table validation.
+- **`bigbasket_capstone.ipynb`**: Complete Jupyter Notebook containing database creation, exploratory SQL queries, and Pandas data cleaning.
+- **`orders_raw.csv` / `orders_cleaned.csv`**: Raw dataset with simulated real-world anomalies versus the final cleaned version.
+- **`monthly_category_revenue.csv` & Excel Workbook**: Category-wise monthly revenue aggregations and spreadsheet pivot table validation.
 
-## Key Highlights & Workflow
-1. **Database Setup & SQL Queries**: Built relational tables with foreign keys and executed foundational queries, filtering, aggregation, and JOINs.
-2. **Spreadsheet Reconciliation**: Imported category revenue into Google Sheets and validated sums via pivot tables against SQL totals.
-3. **Tableau Dashboard**: Visualized monthly revenue trends and category performance against targets.
-4. **Data Cleaning (Pandas)**: Addressed casing issues, stripped extra whitespace, imputed missing values, resolved numerical outliers, and removed duplicate entries.
+## Key Workflow Steps
+1. **Database & SQL**: Structured relational schema and ran foundational queries, grouping, and JOINs.
+2. **Spreadsheet Reconciliation**: Imported monthly revenues into Google Sheets and verified grand totals via pivot tables.
+3. **Tableau Dashboard**: Built interactive visualizations tracking revenue trends and category performance against targets.
+4. **Data Cleaning**: Handled case variations, trailing whitespace, missing values, numerical scaling outliers, and duplicate entries using Pandas.
 
 ## Tableau Dashboard Link
-You can view the interactive Tableau Public dashboard here: [Insert Your Tableau Public URL]
+[Insert Your Public Tableau Dashboard URL Here]
