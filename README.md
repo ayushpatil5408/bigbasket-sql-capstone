@@ -16,4 +16,4 @@ An end-to-end data analytics capstone analyzing BigBasket order data, category r
 4. **Data Cleaning**: Handled case variations, trailing whitespace, missing values, numerical scaling outliers, and duplicate entries using Pandas.
 
 ## Tableau Dashboard Link
-[Insert Your Public Tableau Dashboard URL Here]
+https://prod-in-a.online.tableau.com/t/ayushpatil6790-8393367d01/views/BigBasketPerformanceDashboard_17894162653080/Dashboard1?:origin=card_share_link&:embed=n
